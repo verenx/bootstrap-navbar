@@ -17,19 +17,21 @@ body {
   
   h1 {
     font-size: 96px;
+    line-height: 1.5;
   }
   
   h2 {
     font-size: 48px;
+    line-height: 1.5;
   }
   
   h3 {
     font-size: 24px;
     opacity: 0.7;
   }
-
   
 .about-paragraphs p {
+    margin-top: 30px;
     padding: 20px;
     font-size: 18px;
     line-height: 1.5;
@@ -52,8 +54,6 @@ body {
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
-    text-transform: capitalize;
-    margin-right: 20px;
   }
  
   .navigation-button-secondary {
@@ -84,15 +84,6 @@ body {
     display: block;
   }
   
-  .about-paragraphs {
-    display: flex;
-    margin: 30px 0;
-  }
-  
-  .about-paragraphs p {
-    margin: 10px;
-  }
-  
   .email-link {
     display: flex;
     justify-content: center;
@@ -105,14 +96,12 @@ body {
     text-decoration: underline;
   }
 
-  .yoga-button, .weather-button, .yogurt-button {
-    background-color: var(--primary-color);
-    color: white;
-   
+  .yoga-container {
+    margin: 80px 60px 60px 60px;
   }
 
-  .yoga-container, .weather-container, .yogurt-container, .about-img-grid-container {
-    margin: 80px;
+  .weather-container, .yogurt-container, .about-img-grid-container {
+    margin: 60px;
   }
 
 
@@ -135,12 +124,15 @@ body {
     }
 
     .button-responsive {
-      display: flex;
-      justify-content: center;
+      display: block;
       font-size: 16px;
       text-align: center;
+      margin: 0 60px;
     }
 
+    .image-responsive {
+     width: 100%;
+    }
   }
  
 
